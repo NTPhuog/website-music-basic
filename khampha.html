@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="cd.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo" onclick="window.location.href='home.html';">🎵 Sky😈Muzi</div>
+        <div class="menu">
+            <a href="#">Khám phá</a>
+            <div class="dropdown">
+                <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html" class="dropdown-toggle">Bài Hát</a>
+                <div class="dropdown-menu">
+                    <div class="column">
+                        <h3>VIỆT NAM</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Nhạc Trẻ</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Trữ Tình</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Remix Việt</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Rap Việt</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Nhạc Trịnh</a>
+                    </div>
+                    <div class="column">
+                        <h3>ÂU MỸ</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Pop</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Rock</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">R&B/HipHop</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Country</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Indie</a>
+                    </div>
+                    <div class="column">
+                        <h3>CHÂU Á</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Hàn</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Hoa</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Nhật</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Thái</a>
+                    </div>
+                    <div class="column">
+                        <h3>KHÁC</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Thiếu Nhi</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Không Lời</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Beat</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Thể Loại Khác</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html" class="dropdown-toggle">Playlist</a>
+                <div class="dropdown-menu">
+                    <div class="column">
+                        <h3>VIỆT NAM</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Nhạc Trẻ</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Trữ Tình</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Remix Việt</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Rap Việt</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Rock Việt</a>
+                    </div>
+                    <div class="column">
+                        <h3>ÂU MỸ</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Pop</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Rock</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">R&B/HipHop</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Country</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Electronica/Dance</a>
+                    </div>
+                    <div class="column">
+                        <h3>CHÂU Á</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Hàn</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Hoa</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Nhật</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Nhạc Thái</a>
+                    </div>
+                    <div class="column">
+                        <h3>KHÁC</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Thiếu Nhi</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Không Lời</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Beat</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Thể Loại Khác</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html" class="dropdown-toggle">Tuyển tập</a>
+                <div class="dropdown-menu">
+                    <div class="column">
+                        <h3>THỂ LOẠI NHẠC</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Nhạc Trẻ</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Trữ Tình</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Remix Việt</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Pop</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Rock</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Electronica</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Guitar</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Audio</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Violin</a>
+                    </div>
+                    <div class="column">
+                        <h3>TÂM TRẠNG</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Vui</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Buồn</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">FA</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Hy Vọng</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/pop-moi.html">Thất Tình</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Thương Nhớ</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Thư Giản</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Say Đấm</a> 
+                    </div>
+                    <div class="column">
+                        <h3>NƠI ĐẾN</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Du lịch</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Làm Việc</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Lãng Mạn</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/nhac-han-moi.html">Bar - Club</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Party</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Hẹn Hò</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Sân Chơi</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/bai-hat-moi.html">Miền Viễn Tây</a>
+                    </div>
+                    <div class="column">
+                        <h3>THEO CHỦ ĐỀ</h3>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Thiếu Nhi</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Không Lời</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Bảo Thủ</a>
+                        <a href="https://www.nhaccuatui.com/bai-hat/khong-loi-moi.html">Bùng Cháy</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.nhaccuatui.com/bai-hat/top-20.nhac-viet.html">BXH</a>
+        </div>
+        
+        <div class="search-login">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm..." class="search-bar">
+            <button class="btn-search" id="searchBtn">Tìm Kiếm</button>
+            <label>
+                <input type="checkbox" id="searchExternal"> Tìm Ngoài Trang
+            </label>
+            <button class="btn-login" onclick="window.location.href='dn.html';">Đăng nhập</button>
+            <button class="btn-register" onclick="window.location.href='dk.html';">Đăng ký</button>
+      </div>
+    </div>
+    <div class="song-list">
+        <div class="song-item">
+            <img src="https://image-cdn.nct.vn/song/2025/03/21/e/6/1/f/1742575162763.jpg" alt="Sự Nghiệp Chướng">
+            <div class="song-info">
+                <a href="#" class="song-title">SỰ NGHIỆP CHƯỚNG</a>
+                <p class="artist">Pháo</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>    
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/01/10/3/6/6/d/1736496584376.jpg" alt="Đậm Đà">
+            <div class="song-info">
+                <a href="#" class="song-title">Đậm Đà</a>
+                <p class="artist"> Tóc Tiên, Chị Đẹp Đạp Gió Rẽ Sóng</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>       
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/02/25/0/c/0/a/1740479109540.jpg" alt="Câu Trả Lời">
+            <div class="song-info">
+                <a href="#" class="song-title">Câu Trả Lời</a>
+                <p class="artist">J.ADE</p>
+            </div>
+            <span class="tag hq">HQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/03/8/3/d/6/1740973091053.jpg" alt="Có Đáng Để Yêu Thương?">
+            <div class="song-info">
+                <a href="#" class="song-title">Có Đáng Để Yêu Thương?</a>
+                <p class="artist"> Đức Anh, Du Uyên</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+            <span class="tag hq">HQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2018/05/12/e/8/6/f/1526059033533.jpg" alt="CHẠY NGAY ĐISơn Tùng M-TP">
+            <div class="song-info">
+                <a href="#" class="song-title">CHẠY NGAY ĐI</a>
+                <p class="artist">Sơn Tùng M-TP </p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+            <span class="tag hq">HQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/01/27/1/f/1/9/1737988554279.jpg" alt="Chúng Ta Còn Ở Đó Không?">
+            <div class="song-info">
+                <a href="#" class="song-title">Chúng Ta Còn Ở Đó Không?</a>
+                <p class="artist"> Orange</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2024/11/19/4/0/d/8/1731992152699.jpg" alt="Hoa Mặt Trời">
+            <div class="song-info">
+                <a href="#" class="song-title">Hoa Mặt Trời</a>
+                <p class="artist">Phan Mạnh Quỳnh </p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2024/03/15/4/c/b/d/1710498563935.jpg" alt="Lạc Trôi">
+            <div class="song-info">
+                <a href="#" class="song-title">Lạc Trôi</a>
+                <p class="artist"> Sơn Tùng M-TP</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2024/03/15/4/c/b/d/1710498649541.jpg" alt="Nơi Này Có Anh">
+            <div class="song-info">
+                <a href="#" class="song-title">Nơi Này Có Anh</a>
+                <p class="artist">Sơn Tùng M-TP</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+            <span class="tag hq">HQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/12/7/0/c/2/1741777271855.jpg" alt="Như Đàn Ông">
+            <div class="song-info">
+                <a href="#" class="song-title">Như Đàn Ông</a>
+                <p class="artist"> CARA, Đồng Ánh Quỳnh, Hứa Kim Tuyền</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2024/12/14/c/b/4/0/1734156670933.jpg" alt="Chẳng Thể Nhắm Mắt">
+            <div class="song-info">
+                <a href="#" class="song-title">Chẳng Thể Nhắm Mắt</a>
+                <p class="artist">Kewtiie, Hùng Huỳnh </p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+            <span class="tag hq">HQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/01/10/3/6/6/d/1736496584376.jpg" alt="Thích Quá Rồi Nà">
+            <div class="song-info">
+                <a href="#" class="song-title">Thích Quá Rồi Nà</a>
+                <p class="artist"> tlinh, Trung Trần, Wxrdie, Nger, Pacman</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/02/03/2/c/2/b/1738579119115.jpg" alt="Nỗi Buồn Em Đánh Rơi">
+            <div class="song-info">
+                <a href="#" class="song-title">Nỗi Buồn Em Đánh Rơi (Soundtrack from Nụ Hôn Bạc Tỷ The Movie)</a>
+                <p class="artist"> Trà My</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+        <div class="song-item">
+            <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/29/5/6/7/1/1743211772820.jpg" alt="Đừng Như Thói Quen  ">
+            <div class="song-info">
+                <a href="#" class="song-title">Đừng Như Thói Quen</a>
+                <p class="artist"> Host Nguyên Khang, Ôn Vĩnh Quang, Mi</p>
+            </div>
+            <span class="tag official">OFFICIAL</span>
+            <span class="tag sq">SQ</span>
+        </div>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides" id="slides">
+                <div class="slide"><img src="https://avatar-ex-swe.nixcdn.com/slideshow/2025/04/16/1/6/d/f/1744771524665_org.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="https://avatar-ex-swe.nixcdn.com/slideshow/2025/02/14/9/f/e/6/1739513353588_org.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="https://avatar-ex-swe.nixcdn.com/slideshow/2025/04/16/1/6/d/f/1744811917720_org.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="https://avatar-ex-swe.nixcdn.com/slideshow/2025/04/15/d/e/b/9/1744690137719_org.jpg" alt="Slide 4"></div>
+            </div>
+            <div class="controls">
+                <button class="btn" id="prevBtn">&#10094;</button>
+                <button class="btn" id="nextBtn">&#10095;</button>
+            </div>
+            <div class="dots-container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>                   
+        </div>
+    </div>
+    <div class="category-section">
+        <h2 class="category-title">MỚI PHÁT HÀNH ></h2>
+        <div class="category-grid">
+            <div class="card">
+                <img src="https://image-cdn.nct.vn/song/2025/03/21/e/6/1/f/1742575162763.jpg" alt="SỰ NGHIỆP CHƯỚNG ">
+                <h4>SỰ NGHIỆP CHƯỚNG </h4>
+                <p>Pháo</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/19/1/a/9/7/1742374311161_300.jpg" alt="Thích Quá Rùi Nà (Live at GENfest 24) - tlinh, Trung Trần">
+                <h4>Thích Quá Rùi Nà (Live at GENfest 24)</h4>
+                <p>tlinh, Trung Trần</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/21/e/6/1/f/1742534208564_300.jpg" alt="MONA LISA - J-Hope (BTS)">
+                <h4>MONA LISA </h4>
+                <p>J-Hope (BTS)</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/song/2025/03/21/e/6/1/f/1742526048601_300.jpg" alt="Younger And Hotter Than Me - Selena Gomez, benny blanco">
+                <h4>Younger And Hotter Than Me </h4>
+                <p>Selena Gomez, benny blanco</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2025/03/06/4/2/7/4/1741227894338_300.jpg" alt="Ruby - JENNIE">
+                <h4>Ruby</h4>
+                <p>JENNIE</p>
+            </div>
+            <div class="card">
+                <img src="" alt="Thanh">
+                <h4>BiNhon</h4>
+                <p>Thanh Đặng</p>
+            </div>
+        </div>
+    </div> 
+    <div class="category-section">
+        <h2 class="category-title">QUỐC TẾ NỔI BẬT</h2>
+        <div class="category-grid">
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2025/03/07/9/f/c/f/1741336854807.jpg" alt="Queen Mode: ON">
+                <h4>Queen Mode: ON</h4>
+                <p>Nhạc Quốc Tế</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2024/03/07/3/q/O/r/1709794963934.jpg" alt="Nhạc Phim Hàn Quốc">
+                <h4>Nhạc Phim Hàn Quốc</h4>
+                <p>Nhạc Quốc Tế</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2025/03/18/6/a/f/a/1742294921855.jpg" alt="Ngày Mới Nhạc Mới">
+                <h4>Ngày Mới Nhạc Mới</h4>
+                <p>Nhạc Quốc Tế</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2025/03/19/c/b/4/c/1742367313713.jpg" alt="Quốc Tế Thịnh Hành">
+                <h4>Quốc Tế Thịnh Hành</h4>
+                <p>Nhạc Quốc Tế</p>
+            </div>
+            <div class="card">
+                <img src="https://avatar-ex-swe.nixcdn.com/playlist/2025/03/17/e/b/7/9/1742197803186.jpg" alt="K-POP Hot Hits">
+                <h4>K-POP Hot Hits</h4>
+                <p>Nhạc Quốc Tế</p>
+            </div>
+        </div>
+    <footer class="footer">
+        <div class="t-logo-company">
+            <img src="https://stc-id.nixcdn.com/v11/images/footer/t_logo_company.png" alt="Logo Công Ty">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.8m7ntWE8PeOod2MjNGGMgQHaEK&pid=Api&P=0&h=180" alt="logo nhaccuatui">
+            <img src="https://stc-id.nixcdn.com/v11/images/footer/3-new.png" alt="skymusic">
+            <img src="https://stc-id.nixcdn.com/v11/images/footer/13.png" alt="mediaviet">
+        </div>
+        <div class="footer-text">
+           <p>© NGUYEN THE PHUONG . NHAT THANH . TRONG PHUC #</p>
+            Liên hệ: INF0823_THIẾT KẾ WEB_NHÓM 1_26TH01 | Hotline: 0123-456-789
+        </div>
+        <div class="t-logo-bdu">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.c7kiN6IEVsN6kKTONkGskgHaHa&pid=Api&P=0&h=180" alt="Logo BDU">
+        </div>
+    </footer>
+    <script src="cd.js"></script>
+</body>
+</html>
