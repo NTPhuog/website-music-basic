@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Tài Khoản Anime Âm Nhạc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            width: 70%;
+            height: 80%; 
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .image-container {
+            flex: 1;
+            background: url('https://tse3.mm.bing.net/th?id=OIP.wBIly6PXmoHEJn0B2Kd-xwHaL2&pid=Api&P=0&h=180') no-repeat center center;
+            background-size: cover;
+            border-radius: 10px;
+            filter: brightness(60%); 
+        }
+        .form-container {
+            width: 45%; 
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em; 
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: center;
+            font-size: 1em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        input[type='text'], input[type='email'], input[type='password'] {
+            width: 100%;
+            padding: 12px; 
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #fff;
+        }
+        input::placeholder {
+            color: #ddd;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+        button:hover {
+            background-color: #ff4d99;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1em;
+            color: #ff69b4;
+        }
+        .login-link a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-link a:hover {
+            color: #ff4d99;
+        }
+        .logo {
+            padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+    </style>
+</head>
+<body>
+    <div class="logo" onclick="window.location.href='home.html';">🎵 Sky😈Muzi</div>
+    <div class="container">        
+        <div class="image-container"></div>
+        <div class="form-container">
+            <h1>Tạo Tài Khoản Sky😈Muzi</h1>
+            <p>Chào mừng bạn đến với thế giới âm nhạc! Nhập thông tin để bắt đầu hành trình của bạn.</p>
+            <input type="text" placeholder="Tên người dùng" required>
+            <input type="email" placeholder="Địa chỉ email" required>
+            <input type="password" placeholder="Mật khẩu" required>
+            <input type="password" placeholder="Xác nhận mật khẩu" required>
+            <button type="submit">Tạo tài khoản</button>
+            <div class="login-link">
+                <p>Đã có tài khoản? <a href="dn.html">Đăng nhập</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
